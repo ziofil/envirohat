@@ -65,9 +65,7 @@ The default values are: `num=1` and `delay=0`.
 ## Example
 
 ``` Python
-from envirohat import EnviroHAT
-    
-hat = EnviroHAT()
+import envirohat as hat
     
 print("Tepmerature:", hat.get_temperature(), "°C")
 print("Humidity:", hat.get_humidity(num=5, delay=0.3), "%")
